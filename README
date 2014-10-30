@@ -1,8 +1,12 @@
-My dotfiles. 
-
-Almost nothing original.
+My dotfiles. Almost nothing original. 
 
 Modified versions of:
 
 https://github.com/mathiasbynens/dotfiles
 https://github.com/thoughtbot/dotfiles
+
+Scripts:
+
+./symlink - If your dotfiles are in ~/Projects/dotfiles, symlink ~/.XXX files to the configuration files managed by git.
+./configure-osx - Set great OS X defaults. Reboot required.
+./brew-all - Install and configure many missing systems.
