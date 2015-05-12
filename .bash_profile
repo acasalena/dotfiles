@@ -48,3 +48,12 @@ fi;
 
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2 | tr ' ' '\n')" scp sftp ssh;
+
+##
+# Your previous /Users/acasalena/.bash_profile file was backed up as /Users/acasalena/.bash_profile.macports-saved_2015-04-14_at_19:40:15
+##
+
+# MacPorts Installer addition on 2015-04-14_at_19:40:15: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+
