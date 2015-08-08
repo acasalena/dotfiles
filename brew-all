@@ -88,3 +88,6 @@ brew install spark # http://zachholman.com/spark/ https://github.com/holman/spar
 
 # Remove outdated versions from the cellar
 brew cleanup
+
+# PIP
+pip install httpie
