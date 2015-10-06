@@ -7,22 +7,22 @@ cd ~
 echo "Fixing dotfiles..."
 
 rm -rf .bash_aliases
-ln -s ${PROJECTS_DIR}/.bash_aliases .bash_aliases
+ln -s ${PROJECTS_DIR}/bash_aliases .bash_aliases
 
 rm -rf .bash_profile
-ln -s ${PROJECTS_DIR}/.bash_profile .bash_profile
+ln -s ${PROJECTS_DIR}/bash_profile .bash_profile
 
 rm -rf .bash_prompt
-ln -s ${PROJECTS_DIR}/.bash_prompt .bash_prompt
+ln -s ${PROJECTS_DIR}/bash_prompt .bash_prompt
 
 rm -rf .gitconfig
-ln -s ${PROJECTS_DIR}/.gitconfig .gitconfig
+ln -s ${PROJECTS_DIR}/gitconfig .gitconfig
 
 rm -rf .wgetrc
-ln -s ${PROJECTS_DIR}/.wgetrc .wgetrc
+ln -s ${PROJECTS_DIR}/wgetrc .wgetrc
 
 rm -rf .curlrc
-ln -s ${PROJECTS_DIR}/.curlrc .curlrc
+ln -s ${PROJECTS_DIR}/curlrc .curlrc
 
 echo "Adding missing commands..."
 
