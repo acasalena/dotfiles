@@ -57,6 +57,7 @@ brew install tcptrace
 brew install ucspi-tcp # `tcpserver` et al.
 brew install xpdf
 brew install xz
+brew install httping
 
 # Install other useful binaries
 brew install ack
