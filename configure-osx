@@ -689,6 +689,15 @@ defaults write com.twitter.twitter-mac ESCClosesComposeWindow -bool true
 # Hide the app in the background if it’s not the front-most window
 defaults write com.twitter.twitter-mac HideInBackground -bool true
 
+
+###############################################################################
+# QuickTime                                                                   #
+###############################################################################
+
+# No history
+defaults write com.apple.QuickTimePlayerX NSRecentDocumentsLimit -integer 0
+
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
