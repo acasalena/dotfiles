@@ -17,6 +17,7 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
+alias ch="rm -rf ~/.bash_history && history -c"
 alias j="jobs"
 
 # Detect which `ls` flavor is in use
