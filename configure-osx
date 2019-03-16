@@ -113,6 +113,11 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 #sudo rm -rf /System/Library/CoreServices/DefaultDesktop.jpg
 #sudo ln -s /path/to/your/image /System/Library/CoreServices/DefaultDesktop.jpg
 
+# Clear & Disable "Recent Places"
+defaults delete -g NSNavRecentPlaces # clear 
+defaults write -g NSNavRecentPlacesLimit -int 0 # disable
+
+
 ###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
